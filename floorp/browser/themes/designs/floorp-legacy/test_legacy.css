@@ -1611,14 +1611,14 @@ border-bottom: 1.1px solid var(--toolbar-bgcolor);
   background-color: var(--toolbarbutton-hover-background) !important;
 }
 
-.tab-background::before:not(browser *) {
+.tab-background:not(browser *)::before {
   border-bottom-right-radius: 8px !important;
   left: 0 !important;
   transform: translateX(-8px) !important;
   box-shadow: 4px 4px 0 4px var(--tab-bgcolor) !important;
 }
 
-.tab-background::after:not(browser *) {
+.tab-background:not(browser *)::after {
   border-bottom-left-radius: 8px !important;
   right: 0 !important;
   transform: translateX(8px) !important;
